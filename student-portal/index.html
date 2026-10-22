@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Student Form</title>
+
+    </head>
+
+    <body>
+        <header>
+            <h1>COLCOMPS Registration form</h1>
+            <h3>Please fill in the information below</h3>
+        </header>
+
+        <form>
+            <section>
+                <label for="name">full name</label>
+                <input type="text" id="name" name="name" placeholder="surname first" required>
+                <br><br>
+                <label for="email">Student Email</label>
+                <input type="email" id="email" name="email" placeholder="Student Email" required>
+                <br><br>
+                <label for="number">Phone number</label>
+                <input type="number" id="tel" name="number" placeholder="Phone number" required>
+                <br><br>
+            </section>
+
+            <section>
+                <label>Matric number</label>
+                <input type="number" placeholder="Matric number" required>
+                <br><br>
+                <label>College</label>
+                <input type="text" placeholder="College" required>
+                <br><br>
+                <label>Program</label>
+                <input type="text" placeholder="Program" required>
+                <br><br>
+            </section>
+
+            <h3> select your gender </h3>
+
+            <input type="radio" id="Male" name="gender">
+            <label for="Male">Male</label>
+            <br>
+            <input type="radio" id="Female" name="gender">
+            <label for="Female">Female</label>
+            <br>
+
+            <h3>Select your Depeartment</h3>
+            <select>
+                <option value="Computer Science">Computer Science</option>
+                <option value="Data Science">Data Science</option>
+                <option value="software engineering">software engineering</option>
+                <option value="cyber security">cyber security</option>
+                <option value="information system">information system</option>
+                <option value="information technology">information technology</option>
+                <option value="information communication technology">information communication technology</option>
+            </select>
+
+            <br><br>
+           <input type="submit">
+
+
+
+        </form>
+
+    </body>
+</html>
